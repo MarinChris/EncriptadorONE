@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Challenge</title>
+</head>
+<body class="">
+    <header>
+        <div class="header__logo">
+            <img class="logo__img" src="logoAlura.png" width="35" alt="logoAlura">
+        </div>
+        <h1 class="header__title">
+            Encriptador de texto
+        </h1>
+        <ion-icon id="darkTheme" name="moon"></ion-icon>
+    </header>
+    <main>
+        <div class="main__container">
+            <div class="container__intro">
+                <textarea
+                    class="container__intro__textArea"
+                    id="textEnter" 
+                    placeholder="Ingrese el texto aqui..."></textarea>
+            </div>
+            <h2 class="container__rules">Solo letras <span>minúsculas</span> y sin <span>acentos</span></h2>
+            <div class="container__box">
+                <div class="box__container__card">
+                    <div class="container__card__logo">
+                        <img class="card__logo_img" src="desCirculo.png" alt="mensajeSeguro">
+                    </div>
+                    <div class="box__container__card__text">
+                        <h2 id="displayMessage" class="card__text__title">Ningún mensaje fue encontrado</h2>
+                        <p class="card__text__subtitle">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container__btnArea">
+                <div class="btnArea__body">
+                    <button class="btnArea__body__my-button" id="encriptar">Encriptar</button>
+                    <button class="btnArea__body__my-button" id="desEncriptarTexto">Desencriptar</button>
+                    <button class="btnArea__body__my-button --des" onclick="copiarDatos();" id="copiar">Copiar</button>
+                    <button class="btnArea__body__my-button --des" id="limpiar">Limpiar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="footer__paragraph">Realizado por Christian Marin - Challenge: Encriptador - Programa Oracle, Next Education</p>
+    </footer>
+</body>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script defer src="app.js"></script>
+</html>
