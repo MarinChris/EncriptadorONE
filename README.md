@@ -1,4 +1,4 @@
-# EncriptadorONE
+<h1>EncriptadorONE</h1>
 ES Nombre del Proyecto: Encriptador SecureWords
 
 Descripción: Encriptador SecureWords es una herramienta de encriptación y desencriptación desarrollada en Javascript que permite a los usuarios cifrar y descifrar mensajes de forma segura. Utiliza algoritmos para garantizar la confidencialidad de la información y proporciona una interfaz fácil de usar tanto en la línea de comandos como en una interfaz gráfica.
